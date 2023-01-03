@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #1b244a;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+a {
+  color: #9aabd8;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9aabd8;
+}
+
+#home-score-display {
+  color: #f94f6d;
+  background-color: #080001;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 30px;
+}
+
+#guest-score-display {
+  color: #f94f6d;
+  background-color: #080001;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 30px;
+}
+
+.add-buttons {
+  width: 155px;
+  margin-top: 20px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-buttons a {
+  border: 2px solid;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  padding: 8px 5px 0px 5px;
+}
