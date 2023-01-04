@@ -12,12 +12,15 @@
       <div>
         <h3>HOME</h3>
         <div id="home-score-display">
-          <h1 id="home-score-number">20</h1>
+          <h1 id="home-score-number">0</h1>
         </div>
         <div class="add-buttons">
-          <a href="#">+1</a>
-          <a href="#">+2</a>
-          <a href="#">+3</a>
+          <a onclick="increaseHomeScoreOne()">+1</a>
+          <a onclick="increaseHomeScoreTwo()">+2</a>
+          <a onclick="increaseHomeScoreThree()">+3</a>
+        </div>
+        <div class="reset-buttons" onclick="resetHomeScore()">
+          <a>RESET</a>
         </div>
       </div>
       <div>
@@ -26,9 +29,12 @@
           <h1 id="guest-score-number">0</h1>
         </div>
         <div class="add-buttons">
-          <a href="#">+1</a>
-          <a href="#">+2</a>
-          <a href="#">+3</a>
+          <a onclick="increaseGuestScoreOne()">+1</a>
+          <a onclick="increaseGuestScoreTwo()">+2</a>
+          <a onclick="increaseGuestScoreThree()">+3</a>
+        </div>
+        <div class="reset-buttons" onclick="resetGuestScore()">
+          <a>RESET</a>
         </div>
       </div>
     </div>

@@ -6,6 +6,8 @@ body {
 }
 
 .container {
+  margin: auto;
+  width: 400px;
   display: flex;
   justify-content: space-around;
 }
@@ -18,6 +20,9 @@ h3 {
 a {
   color: #9aabd8;
   text-decoration: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 a:visited {
@@ -67,4 +72,26 @@ a:visited {
   width: 30px;
   height: 30px;
   padding: 8px 5px 0px 5px;
+}
+
+.add-buttons a:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #7388c3;
+}
+
+.reset-buttons {
+  color: #9aabd8;
+  margin-top: 20px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 8px 5px 8px 5px;
+}
+
+.reset-buttons:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #7388c3;
 }
