@@ -25,8 +25,10 @@ var addSound;
 var resetSound;
 
 function loadSound() {
-  addSound = new sound("gameboy-pluck-41265.mp3");
-  resetSound = new sound("075856_typewriter-bell-amp-carriage-reset-82407.mp3");
+  addSound = new sound("sound/gameboy-pluck-41265.mp3");
+  resetSound = new sound(
+    "sound/075856_typewriter-bell-amp-carriage-reset-82407.mp3"
+  );
 }
 
 function playSound() {
